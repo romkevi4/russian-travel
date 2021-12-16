@@ -1,0 +1,13 @@
+/* Root */
+.root {
+  margin: 0;
+  padding: 28px 48px 24px;
+  width: 1024px;
+  height: 6895px;
+  background-color: #2A2C2F;
+
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}

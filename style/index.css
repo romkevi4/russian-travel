@@ -1,0 +1,21 @@
+/* Fonts */
+@import url(../vendor/fonts/Inter\ Web/inter.css);
+
+/* Style normalizer */
+@import url(../vendor/normalize/normalize.css);
+
+/* Root */
+@import url(../block/root/root.css);
+
+/* Header */
+@import url(../block/header/header.css);
+@import url(../block/header/__logo/header__logo.css);
+@import url(../block/header/__lang/header__lang.css);
+@import url(../block/header/__lang-link/header__lang-link.css);
+@import url(../block/header/__lang-link/_active/header__lang-link_active.css);
+
+/* Main */
+@import url(../block/main/main.css);
+
+
+
