@@ -1,0 +1,24 @@
+/* Page */
+.page {
+  margin: 0 auto;
+  /* padding: 28px 48px 24px; */
+  /* padding: 2.73% 4.69% 2.34%; */
+  /* padding: calc(28px/6895px*100%) calc(48px/1024px*100%) calc(24px/6895px*100%); */
+  max-width: 1280px;
+  min-width: 320px;
+  border: 1px solid #fff; /* временная рамка */
+  /* max-height: 10023px;
+  min-height: 6855px; */
+
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+
+  box-sizing: border-box;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+}

@@ -1,0 +1,31 @@
+/* Footer */
+.footer__link {
+  margin: 0 18px 0 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 1;
+  transition: opacity 180ms linear 2ms;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
+}
+
+.footer__link:hover {
+  opacity: .6;
+}
+
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin: 0 0 32px 0;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 0;
+  }
+}

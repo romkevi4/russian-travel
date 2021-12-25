@@ -1,0 +1,25 @@
+/* Place */
+.place__url-heading {
+  margin: 0 0 12px;
+  max-width: 456px;
+  min-height: 12px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #aaa;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__url-heading {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    max-width: 288px;
+  }
+}

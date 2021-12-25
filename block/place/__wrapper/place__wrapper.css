@@ -1,0 +1,27 @@
+/* Place */
+.place__wrapper {
+  margin: 0;
+  padding: 0;
+  max-width: 484px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__wrapper {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__wrapper {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__wrapper {
+    max-width: 288px;
+    grid-row: 4/5;
+  }
+}

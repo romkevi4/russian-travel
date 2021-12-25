@@ -1,0 +1,22 @@
+/* Lead */
+.lead__title {
+  margin: 0 0 32px;
+  padding: 0;
+  max-width: 720px;
+  min-height: 200px;
+  font-size: 96px;
+  line-height: 1.04;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    margin: 0 0 16px;
+    min-width: 288px;
+    min-height: 88px;
+    font-size: 40px;
+    line-height: 1.1;
+    white-space: pre-line;
+  }
+}

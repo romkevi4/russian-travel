@@ -1,0 +1,30 @@
+/* Intro */
+.intro__box {
+  margin-right: auto;
+  padding: 0;
+  min-width: 690px;
+  min-height: 429px;
+  width: 76.88%;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro__box {
+    width: 90.63%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__box {
+    margin: 0 auto;
+    max-width: 720px;
+    width: 93.75%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__box {
+    margin: 0 auto;
+    min-width: 288px;
+    width: 90%;
+  }
+}

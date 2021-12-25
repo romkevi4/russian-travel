@@ -1,0 +1,24 @@
+/* Place */
+.place__website {
+  margin: 0;
+  padding: 0;
+  max-width: 456px;
+  min-height: 46px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  justify-self: stretch;
+  align-self: end;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    max-width: 288px;
+    grid-row: 2/3;
+  }
+}

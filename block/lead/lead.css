@@ -1,0 +1,31 @@
+/* Lead */
+.lead {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 984px;
+  max-height: 1005px;
+  /* width: 76.88%; */
+}
+
+@media screen and (max-width: 1279px) {
+  .lead {
+    min-width: 928px;
+    min-height: 962px;
+    /* width: 90.63%; */
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    min-width: 768px;
+    min-height: 862px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    min-width: 320px;
+    min-height: 406px;
+    /* width: 100%; */
+  }
+}
