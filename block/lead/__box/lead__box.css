@@ -1,9 +1,30 @@
 /* Lead */
 .lead__box {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
+
+@media screen and (max-width: 1279px) {
+  .lead__box {
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__box {
+    min-width: 768px;
+    
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__box {
+    min-width: 288px;
+  }
+}
+

@@ -3,26 +3,26 @@
   margin: 0 auto;
   padding: 0;
   max-width: 984px;
-  min-height: 3392px;
+  /* min-height: 3392px; */
 }
 
 @media screen and (max-width: 1279px) {
   .places {
     min-width: 928px;
-    max-height: 3292px;
+    /* max-height: 3292px; */
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
     min-width: 720px;
-    max-height: 2808px;
+    /* max-height: 2808px; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .places {
     min-width: 320px;
-    max-height: 5177px;
+    /* max-height: 5177px; */
   }
 }

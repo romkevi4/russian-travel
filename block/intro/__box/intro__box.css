@@ -2,29 +2,20 @@
 .intro__box {
   margin-right: auto;
   padding: 0;
-  min-width: 690px;
-  min-height: 429px;
-  width: 76.88%;
-}
-
-@media screen and (max-width: 1279px) {
-  .intro__box {
-    width: 90.63%;
-  }
+  max-width: 690px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
   .intro__box {
     margin: 0 auto;
     max-width: 720px;
-    width: 93.75%;
+    min-width: 288px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .intro__box {
-    margin: 0 auto;
-    min-width: 288px;
     width: 90%;
   }
 }

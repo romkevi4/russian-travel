@@ -1,6 +1,6 @@
 /* Lead */
 .lead__subtitle {
-  margin: 0 0 64px;
+  margin: 0 0 56px;
   padding: 0;
   max-width: 640px;
   min-height: 72px;
@@ -9,17 +9,26 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
-    margin-bottom: 56px;
+    font-size: 26px;
+    line-height: 1.22;
+    white-space: pre-line;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 610px) {
   .lead__subtitle {
     margin-bottom: 40px;
     min-width: 288px;
     min-height: 40px;
+    font-size: 20px;
+    line-height: 1.24;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .lead__subtitle {
     font-size: 16px;
     line-height: 1.25;
     white-space: pre-line;
