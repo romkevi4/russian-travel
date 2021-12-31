@@ -2,14 +2,14 @@
 .intro {
   margin: 0 auto;
   padding: 0;
-  max-width: 984px;
+  width: 984px;
+  width: 100%;
   min-height: 429px;
-  width: 76.88%;
-  display: flex;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
+    max-width: 983px;
     min-width: 928px;
     width: 90.63%;
   }
@@ -17,13 +17,15 @@
 
 @media screen and (max-width: 1023px) {
   .intro {
+    max-width: 927px;
     min-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    min-width: 320px;
-    min-height: 406px;
+    max-width: 767px;
+    min-width: 288px;
+    width: 90%;
   }
 }

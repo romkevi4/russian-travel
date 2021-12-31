@@ -2,7 +2,8 @@
 .place__paragraph {
   margin: 0;
   padding: 0;
-  max-width: 484px;
+  min-width: 484px;
+  width: 100%;
   font-size: 18px;
   line-height: 1.61;
   text-align: left;
@@ -12,14 +13,14 @@
   margin-bottom: 26px;
 }
 
-.place__paragraph:last-of-type {
+.place__paragraph:last-child {
   margin-bottom: 0;
 }
 
 
 @media screen and (max-width: 1279px) {
   .place__paragraph {
-    max-width: 456px;
+    min-width: 456px;
   }
 
   .place__paragraph:first-child {
@@ -29,7 +30,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-    max-width: 352px;
+    min-width: 352px;
     font-size: 16px;
     line-height: 1.63;
   }
@@ -41,12 +42,11 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    max-width: 288px;
-    font-size: 16px;
-    line-height: 1.63;
+    min-width: 288px;
+    width: 90%;
   }
 
-  .place__paragraph:first-child {
-    margin-bottom: 25px;
+  .place__paragraph:last-of-type {
+    margin-bottom: 0;
   }
 }

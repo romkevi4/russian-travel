@@ -2,26 +2,30 @@
 .place__wrapper {
   margin: 0;
   padding: 0;
-  max-width: 484px;
-  grid-column: 2/3;
-  grid-row: 2/3;
+  min-width: 484px;
+  width: 100%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 @media screen and (max-width: 1279px) {
   .place__wrapper {
-    max-width: 456px;
+    min-width: 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__wrapper {
-    max-width: 352px;
+    min-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__wrapper {
-    max-width: 288px;
-    grid-row: 4/5;
+    margin: 0 auto;
+    min-width: 288px;
+    width: 90%;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
   }
 }

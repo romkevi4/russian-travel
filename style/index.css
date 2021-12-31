@@ -46,10 +46,10 @@
 /* Place */
 @import url(../block/place/place.css);
 @import url(../block/place/__title/place__title.css);
-@import url(../block/place/__image/place__image.css);
 @import url(../block/place/__website/place__website.css);
 @import url(../block/place/__url-heading/place__url-heading.css);
 @import url(../block/place/__link/place__link.css);
+@import url(../block/place/__image/place__image.css);
 @import url(../block/place/__wrapper/place__wrapper.css);
 @import url(../block/place/__paragraph/place__paragraph.css);
 
@@ -61,6 +61,7 @@
 
 /* Footer */
 @import url(../block/footer/footer.css);
+@import url(../block/footer/__links/footer__links.css);
 @import url(../block/footer/__link/footer__link.css);
 @import url(../block/footer/__copyright/footer__copyright.css);
 
