@@ -1,7 +1,7 @@
 /* Photo */
 .photo {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 92px;
   display: grid;
   max-width: 1184px;
   width: 100%;
@@ -20,6 +20,7 @@
 
 @media screen and (max-width: 1023px) {
   .photo {
+    padding-bottom: 88px;
     min-width: 720px;
     grid-template: repeat(6, 1fr) / repeat(2, 1fr);
     gap: 16px;
@@ -28,6 +29,7 @@
 
 @media screen and (max-width: 767px) {
   .photo {
+    padding-bottom: 64px;
     min-width: 288px;
     grid-template: repeat(12, 1fr) / repeat(1, 1fr);
     row-gap: 12px;

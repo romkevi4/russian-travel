@@ -1,7 +1,7 @@
 /* Cover */
 .cover {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 92px;
   width: 1184px;
   height: 740px;
   display: flex;
@@ -16,6 +16,18 @@
     min-width: 320px;
     width: 100%;
     height: calc(100vw / 1.6);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    padding-bottom: 64px;
   }
 }
 

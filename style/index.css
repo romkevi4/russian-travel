@@ -64,10 +64,3 @@
 @import url(../block/footer/__links/footer__links.css);
 @import url(../block/footer/__link/footer__link.css);
 @import url(../block/footer/__copyright/footer__copyright.css);
-
-/* External margins settings */
-@import url(../block/page/__header/_margin/page__header_margin_top.css);
-@import url(../block/page/__section/_margin/page__section_margin_bottom.css);
-@import url(../block/page/__main/_margin/page__main_margin_top.css);
-@import url(../block/page/__place/_margin/page__place_margin_bottom.css);
-@import url(../block/page/__footer/_margin/page__footer_margin_bottom.css);
