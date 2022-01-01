@@ -2,11 +2,12 @@
 .lead__image {
   margin: 0 0 8px;
   max-width: 984px;
+  min-width: 320px;
   width: 100%;
   align-items: center;
 }
 
-@media screen and (max-width: 1279px) {
+/* @media screen and (max-width: 1279px) {
   .lead__image {
     min-width: 928px;
   }
@@ -22,4 +23,4 @@
   .lead__image {
     min-width: 320px;
   }
-}
+} */
