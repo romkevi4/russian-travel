@@ -3,7 +3,6 @@
   margin: 0 0 56px;
   padding: 0;
   max-width: 640px;
-  min-height: 72px;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
@@ -15,7 +14,6 @@
     max-width: 640px;
     min-width: 288px;
     width: 80%;
-    min-height: 40px;
     font-size: 3.91vw;
     line-height: 4.69vw;
   }

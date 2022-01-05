@@ -4,7 +4,6 @@
   padding: 0;
   max-width: 690px;
   width: 100%;
-  min-height: 14px;
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 1.5px;
@@ -15,8 +14,13 @@
 @media screen and (max-width: 1023px) {
   .lead__caption {
     margin: 0 auto;
-    max-width: 720px;
-    min-width: 288px;
+    min-width: 720px;
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .lead__caption {
+    min-width: 288px;
   }
 }

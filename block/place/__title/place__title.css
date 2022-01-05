@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   max-width: 460px;
-  min-height: 76px;
   width: 100%;
   font-size: 72px;
   font-weight: 900;
@@ -26,7 +25,6 @@
   .place__title {
     max-width: 439px;
     min-width: 340px;
-    min-height: 46px;
     font-size: 5.47vw;
     line-height: 5.96vw;
   }
@@ -37,7 +35,6 @@
     margin: 0 auto;
     max-width: 690px;
     min-width: 288px;
-    min-height: 35px;
     font-size: 32px;
     line-height: 1.09;
     width: 90%;

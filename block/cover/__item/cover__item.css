@@ -1,7 +1,7 @@
 /* Cover */
 .cover__item {
-  width: 1184px;
-  height: 740px;
+  width: 100%;
+  min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,21 +30,20 @@
 }
 
 .cover__item:hover::before {
-  opacity: .7;
+  opacity: .8;
 }
 
 @media screen and (max-width: 1184px) {
   .cover__item {
     max-width: 1184px;
     min-width: 320px;
-    width: 100%;
-    height: calc(100vw / 1.6);
+    min-height: calc(100vw / 1.6);
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__item {
     width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }

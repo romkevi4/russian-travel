@@ -1,5 +1,6 @@
 /* Header */
 .header__lang-link {
+  margin: 0 18px 0 0;
   font-size: 24px;
   line-height: 1.17;
   font-style: normal;
@@ -8,14 +9,18 @@
   color: #fff;
   opacity: 1;
   transition: opacity 180ms linear 2ms;
+  grid-column: -3 / -2, -2 / -1;
+  grid-row: 1 / 2;
+  align-self: end;
+  justify-self: start;
 }
 
-.header__lang-link:first-child {
-  margin-right: 18px;
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 .header__lang-link:hover {
-  opacity: .6;
+  opacity: .8;
 }
 
 @media screen and (max-width: 767px) {

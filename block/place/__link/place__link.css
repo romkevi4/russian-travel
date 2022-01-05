@@ -3,7 +3,6 @@
   margin: 0;
   max-width: 456px;
   width: 100%;
-  min-height: 22px;
   font-size: 18px;
   line-height: 1.22;
   color: #fff;
@@ -15,7 +14,7 @@
 }
 
 .place__link:hover {
-  opacity: .6;
+  opacity: .8;
 }
 
 

@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   max-width: 186px;
-  min-height: 16px;
   font-size: 14px;
   line-height: 16px;
   font-style: normal;
@@ -12,7 +11,6 @@
 
 @media screen and (max-width: 745px) {
   .footer__copyright {
-    min-height: 14px;
     line-height: 1;
   }
 }

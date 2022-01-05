@@ -1,0 +1,12 @@
+/* Main */
+.main {
+  margin: 0 auto;
+  padding: 56px 0 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .main {
+    padding-top: 48px;
+  }
+}
