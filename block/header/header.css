@@ -5,10 +5,11 @@
   max-width: 1184px;
   min-height: 52px;
   width: 100%;
-  display: grid;
-  grid-template: 1fr / minmax(200px, 38fr) repeat(2, 1fr);
-  grid-auto-flow: column;
-  grid-auto-columns: 1fr;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+
 }
 
 @media screen and (max-width: 1279px) {
